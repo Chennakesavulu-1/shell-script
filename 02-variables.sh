@@ -15,10 +15,18 @@ DATE=$(date)
 #echo "$PERSON2:IAm good $PERSON1"
 
 #To develop a program that can do addition of 2 numbers
-NUMBER1=$1
-NUMBER2=$2
+#NUMBER1=$1
+#NUMBER2=$2
 
 #I need to run a command inside shell to add these 2 numbers
 
-SUM=$((NUMBER1+NUMBER2))
-echo "Addition of 2 numbers is: $SUM"
+#SUM=$((NUMBER1+NUMBER2))
+#echo "Addition of 2 numbers is: $SUM"
+
+echo "Please enter your username"
+read -s USERNAME #this is the variable where the value of the one user entered
+
+echo "username entered is : $USERNAME"
+echo "please enter your password"
+read -s PASSWORD
+echo "password entered is: $PASSWORD"
