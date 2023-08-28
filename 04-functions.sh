@@ -14,14 +14,14 @@ N="\e[0m"   #no colour
 #this function shuld validate the previous commnad and inform user it is success or failure
 
 VALIDATE(){
-  #$1  --> it will receve the argument
+  $1  #--> it will receve the argument
   if [ $1 -ne 0 ]
   then
     echo "$2 ...FAILURE"
     exit 1
   else
     echo "$2 ...SUCCESS"
-}
+ }
 
 USERID=$(id -u)
 
