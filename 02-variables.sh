@@ -23,10 +23,10 @@ DATE=$(date)
 #SUM=$((NUMBER1+NUMBER2))
 #echo "Addition of 2 numbers is: $SUM"
 
-echo "Please enter your username"
+#echo "Please enter your username"
 read -s USERNAME #this is the variable where the value of the one user entered
 
-echo "username entered is : $USERNAME"
-echo "please enter your password"
-read -s PASSWORD
-echo "password entered is: $PASSWORD"
+#echo "username entered is : $USERNAME"
+#echo "please enter your password"
+#read -s PASSWORD
+#echo "password entered is: $PASSWORD"
